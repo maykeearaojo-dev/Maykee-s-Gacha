@@ -1,6 +1,4 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import LoveGachaApp from "./App.jsx";
-import "./index.css";
+import React, { useMemo, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
-createRoot(document.getElementById("root")).render(<LoveGachaApp />);
+export default function LoveGachaApp() {
